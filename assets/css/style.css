@@ -1,0 +1,25 @@
+/**
+ * Custom Style KiosDigital PPOB
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --primary: #2563eb;
+    --secondary: #0f172a;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.no-print {
+    @media print {
+        display: none !important;
+    }
+}
+
+.receipt-font {
+    font-family: 'JetBrains Mono', monospace;
+}

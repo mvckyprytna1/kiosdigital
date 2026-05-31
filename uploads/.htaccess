@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+
+# Secure uploads
+<FilesMatch "\.(php|php5|phtml|phar)$">
+  Deny from all
+</FilesMatch>

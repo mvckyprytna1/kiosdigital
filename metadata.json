@@ -1,0 +1,6 @@
+{
+  "name": "KiosDigital PPOB",
+  "description": "Aplikasi PPOB PHP Native untuk Jual Pulsa, Paket Data, Token PLN, dan Top Up Game (Tripay + Digiflazz)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
